@@ -7,6 +7,7 @@ do
 done
 echo "Созданы директории 1-5."
 
+
 for i in {1..5}; do
   for j in {1..1000}; do
     filename="${i}KB_$(date +%Y-%m-%d_%H-%M-%S)_$j.dat"
